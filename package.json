@@ -26,7 +26,8 @@
       "output": "dist"
     },
     "win": {
-      "icon": "icon.ico"
+      "icon": "icon.ico",
+      "target": "portable"
     }
   }
 }
