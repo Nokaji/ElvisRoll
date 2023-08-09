@@ -1,0 +1,55 @@
+html, body{
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+html{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-image: url("image.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+body .text{
+    background: linear-gradient(45deg, rgb(33, 25, 148), rgb(221, 18, 18));
+    padding: 15px;
+    font-family: fantasy;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+body h4{
+    font-size: 30px;
+    font-weight: 100;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(35deg, rgb(103, 193, 19), rgb(250, 202, 42));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: degree 0.25s infinite;
+}
+
+@keyframes degree{
+    0%{
+        background: linear-gradient(0deg, rgb(103, 193, 19), rgb(250, 202, 42));
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+    100%{
+        background: linear-gradient(360deg, rgb(103, 193, 19), rgb(250, 202, 42));
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+}

@@ -1,0 +1,32 @@
+{
+  "name": "elvisroll",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "electron .",
+    "dist": "electron-builder"
+  },
+  "author": "Nokaji, Berasss, LeonitzYT",
+  "license": "ISC",
+  "devDependencies": {
+    "electron": "^25.4.0",
+    "electron-builder": "^24.6.3"
+  },
+  "dependencies": {
+    "fs": "^0.0.1-security",
+    "howler": "^2.2.3",
+    "play-sound": "^1.1.5",
+    "speaker": "^0.5.4"
+  },
+  "build": {
+    "appId": "fr.elvisroll.app",
+    "productName": "Elvis Roll",
+    "directories": {
+      "output": "dist"
+    },
+    "win": {
+      "icon": "icon.ico"
+    }
+  }
+}
